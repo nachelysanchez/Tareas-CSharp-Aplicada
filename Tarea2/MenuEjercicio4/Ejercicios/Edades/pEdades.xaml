@@ -1,0 +1,26 @@
+﻿<Window x:Class="MenuEjercicio4.Ejercicios.Edades.pEdades"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MenuEjercicio4.Ejercicios.Edades"
+        mc:Ignorable="d"
+        Title="Edades" Height="450" Width="320">
+    <Grid>
+        <StackPanel>
+            <StackPanel Orientation="Vertical">
+                <Label Content="Edad: " HorizontalAlignment="Left"/>
+                <StackPanel Orientation="Horizontal" Margin="5,0">
+                    <TextBox x:Name="EdadTextBox" Width="150" HorizontalAlignment="Left"/>
+                    <Button x:Name="AgregarButton" Height="20" Width="60" Content="Agreagr" Margin="10,0" Click="AgregarButton_Click"/>
+                </StackPanel>
+                <ListView x:Name="EdadListView" Height="150" Width="250" HorizontalAlignment="Left" Margin="5,10"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Vertical">
+                <Button x:Name="CalcularButton" Height="20" Width="60" HorizontalAlignment="Left" Margin="5,5" Content="Calcular" Click="CalcularButton_Click"/>
+                <ListView x:Name="ResultadoListView" Height="122" Width="166" HorizontalAlignment="Left" Margin="5,0"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

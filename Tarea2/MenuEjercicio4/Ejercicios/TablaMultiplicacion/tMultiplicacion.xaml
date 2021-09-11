@@ -1,0 +1,21 @@
+﻿<Window x:Class="MenuEjercicio4.Ejercicios.TablaMultiplicacion.tMultiplicacion"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MenuEjercicio4.Ejercicios.TablaMultiplicacion"
+        mc:Ignorable="d"
+        Title="Tablas de Multiplicacion" Height="450" Width="400">
+    <Grid>
+        <StackPanel>
+            <StackPanel Orientation="Vertical">
+                <Label x:Name="NumeroLabel" Content="Ingrese un numero" HorizontalAlignment="Center"/>
+                <TextBox x:Name="NumeroTextBox" Width="120" Height="25" HorizontalAlignment="Center"/>
+                <Button x:Name="CalcularButton" Content="Calcular" Width="80" Click="CalcularButton_Click" />
+            </StackPanel>
+            <StackPanel>
+                <ListBox x:Name="TablaListBox" Width="268" Height="204"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

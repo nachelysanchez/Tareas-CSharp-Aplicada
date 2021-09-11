@@ -1,0 +1,18 @@
+﻿<Window x:Class="MenuEjercicios5.Ejercicios.NumeroEnLetras.nLetras"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MenuEjercicios5.Ejercicios.NumeroEnLetras"
+        mc:Ignorable="d"
+        Title="Convertir" Height="120" Width="210">
+    <Grid>
+        <StackPanel>
+            <StackPanel Orientation="Vertical">
+                <Label x:Name="NumeroLabel" Content="Ingrese un numero" HorizontalAlignment="Center"/>
+                <TextBox x:Name="NumeroTextBox" Height="26" Width="150" HorizontalAlignment="Center"/>
+                <Button x:Name="ConvertirButton" Content="Convertir" Click="ConvertirButton_Click" HorizontalAlignment="Center"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

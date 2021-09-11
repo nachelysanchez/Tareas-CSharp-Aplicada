@@ -1,0 +1,19 @@
+﻿<Window x:Class="MenuEjercicios5.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MenuEjercicios5"
+        mc:Ignorable="d"
+        Title="Ventana Principal" Height="350" Width="500">
+    <Grid>
+        <StackPanel>
+            <Menu Height="18">
+                <MenuItem Header="Ejercicios">
+                    <MenuItem x:Name="FactorialMenuItem" Header="Factorial de un numero" Click="FactorialMenuItem_Click"/>
+                    <MenuItem x:Name="NumeroEscritoMenuItem" Header="Escribiendo un numero en palabras" Click="NumeroEscritoMenuItem_Click"/>
+                </MenuItem>
+            </Menu>
+        </StackPanel>
+    </Grid>
+</Window>
