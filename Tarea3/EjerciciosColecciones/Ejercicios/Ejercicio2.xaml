@@ -1,0 +1,27 @@
+﻿<Window x:Class="EjerciciosColecciones.Ejercicios.Ejercicio2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EjerciciosColecciones.Ejercicios"
+        mc:Ignorable="d"
+        Title="Ejercicio 2" Height="400" Width="500">
+    <Grid>
+        <StackPanel>
+            <StackPanel Orientation="Vertical">
+                <Label Content="Palabras Disponibles: " Margin="5,0"/>
+                <ListView x:Name="PalabrasListView" Height="100" Width="200" HorizontalAlignment="Left" Margin="10,0,0,20"/>
+
+                <Label Content="Ingrese la palabra que quieres buscar: " Margin="5,0"/>
+
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBox x:Name="PalabraTextBox" Height="20" Width="150" HorizontalAlignment="Left" Margin="10,0"/>
+                <Button x:Name="BuscarButton" Height="20" Width="60" Content="Buscar" Click="BuscarButton_Click"/>
+            </StackPanel>
+            <StackPanel>
+                <TextBox x:Name="DescripcionTextBox" Height="100" Margin="10"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

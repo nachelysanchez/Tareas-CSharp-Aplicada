@@ -1,0 +1,30 @@
+﻿<Window x:Class="EjerciciosArreglos.Ejercicios.Ejercicio4"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EjerciciosArreglos.Ejercicios"
+        mc:Ignorable="d"
+        Title="Ejercicio4" Height="450" Width="500">
+    <Grid>
+        <StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Cantidad de cursos: " Margin="5,0"/>
+                <TextBox x:Name="CursosTextBox" Height="20" Width="100" HorizontalAlignment="Left" Margin="10,0,0,0"/>
+                <Button x:Name="AgregarCursoButton" Height="20" Width="60" HorizontalAlignment="Left" Margin="10,10" Content="Agregar" Click="AgregarCursoButton_Click"/>
+            </StackPanel>
+
+            <StackPanel>
+                <Button x:Name="AgregarCalificacionButton" Height="20" Width="230" HorizontalAlignment="Center" Margin="10,10" Content="Agregar las calificaciones " Click="AgregarCalificacionButton_Click" />
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal">
+                <ListView x:Name="ResultadosListView" Height="80" Width="200" HorizontalAlignment="Left" Margin="10,10"/>
+                <Button x:Name="ResultadoButton" Height="20" Width="60" VerticalAlignment="Top" Margin="5,10" Content="Resultado" Click="ResultadoButton_Click"/>
+            </StackPanel>
+
+            <Label Content="Calificaciones: " Margin="5,10,0,0"/>
+            <ListBox Height="200" Width="400" HorizontalAlignment="Left" Margin="10,0" Name="CalificacionesListView"/>
+        </StackPanel>
+    </Grid>
+</Window>

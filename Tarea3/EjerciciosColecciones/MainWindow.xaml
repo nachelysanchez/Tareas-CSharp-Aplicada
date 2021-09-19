@@ -1,0 +1,21 @@
+﻿<Window x:Class="EjerciciosColecciones.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EjerciciosColecciones"
+        mc:Ignorable="d"
+        Title="Ventana Principal" Height="300" Width="500">
+    <Grid>
+        <StackPanel>
+            <Menu Height="18">
+                <MenuItem Header="Ejercicios">
+                    <MenuItem x:Name="Ejercicio1Menutem" Header="Ejercicio 1" Click="Ejercicio1Menutem_Click"/>
+                    <MenuItem x:Name="Ejercicio2Menutem" Header="Ejercicio 2" Click="Ejercicio2Menutem_Click"/>
+                    <MenuItem x:Name="Ejercicio3Menutem" Header="Ejercicio 5" Click="Ejercicio3Menutem_Click"/>
+
+                </MenuItem>
+            </Menu>
+        </StackPanel>
+    </Grid>
+</Window>
