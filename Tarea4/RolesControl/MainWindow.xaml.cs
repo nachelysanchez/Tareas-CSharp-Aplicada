@@ -1,4 +1,5 @@
-﻿using System;
+﻿using RolesControl.UI.Registros;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,7 +14,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace WPFEjemplo
+namespace RolesControl
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -23,6 +24,17 @@ namespace WPFEjemplo
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void RegistroRolesMenuItem_Click(object sender, RoutedEventArgs e)
+        {
+            rRoles registro = new rRoles();
+            registro.Show();
+        }
+
+        private void ConsultaRolesMenuItem_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
