@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RolesControl", "RolesControl.csproj", "{4DCB799A-7650-43F7-9647-596D9E0D66A2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estructuras_Cadenas", "Estructuras_Cadenas.csproj", "{ADD17BB0-F1E3-42D0-B624-0364D7F1E704}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4DCB799A-7650-43F7-9647-596D9E0D66A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4DCB799A-7650-43F7-9647-596D9E0D66A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4DCB799A-7650-43F7-9647-596D9E0D66A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4DCB799A-7650-43F7-9647-596D9E0D66A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADD17BB0-F1E3-42D0-B624-0364D7F1E704}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADD17BB0-F1E3-42D0-B624-0364D7F1E704}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADD17BB0-F1E3-42D0-B624-0364D7F1E704}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADD17BB0-F1E3-42D0-B624-0364D7F1E704}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {9B88E358-0BD2-4B1F-8DB7-D3A26B4CE784}
+		SolutionGuid = {B2F24714-F766-4BB6-8E65-8D6A7EB432AD}
 	EndGlobalSection
 EndGlobal

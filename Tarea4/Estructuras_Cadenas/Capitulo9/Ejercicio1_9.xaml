@@ -1,0 +1,22 @@
+﻿<Window x:Class="Estructuras_Cadenas.Capitulo9.Ejercicio1_9"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Estructuras_Cadenas.Capitulo9"
+        mc:Ignorable="d"
+        Title="Ejercicio 1" Height="450" Width="490">
+    <Grid>
+        <StackPanel Margin="10">
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Cantidad de productos: " Margin="5,10,0,0"/>
+                <TextBox x:Name="CantidadTextBox" Height="29" Width="180" HorizontalAlignment="Left" Margin="10,0"/>
+                <Button x:Name="IngresarButton" Content="Ingresar Datos" Width="100" HorizontalAlignment="Left" Margin="10,10" Click="IngresarButton_Click"/>
+            </StackPanel>
+            <StackPanel HorizontalAlignment="Center">
+                <Label Content="Lista de Productos"/>
+                <ListBox x:Name="MostrarListBox" Height="280" Margin="10,10,0,0" Width="400" HorizontalAlignment="Left"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

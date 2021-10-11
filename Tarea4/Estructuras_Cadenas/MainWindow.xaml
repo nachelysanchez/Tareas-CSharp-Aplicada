@@ -1,0 +1,24 @@
+﻿<Window x:Class="Estructuras_Cadenas.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Estructuras_Cadenas"
+        mc:Ignorable="d"
+        Title="Ventana Principal" Height="300" Width="400">
+    <Grid>
+        <StackPanel>
+            <Menu Height="20">
+                <MenuItem x:Name="Capitulo8MenuItem" Header="Capitulo 8">
+                    <MenuItem x:Name="Ejercicio3MenuItem" Header="Ejercicio 3" Click="Ejercicio3MenuItem_Click"/>
+                    <MenuItem x:Name="Ejercicio5MenuItem" Header="Ejercicio 5" Click="Ejercicio5MenuItem_Click"/>
+                </MenuItem>
+                <MenuItem Header="Capitulo 9">
+                    <MenuItem x:Name="Ejercicio1MenuItem" Header="Ejercicio 1" Click="Ejercicio1MenuItem_Click"/>
+                    <MenuItem x:Name="Ejercicio3_9MenuItem" Header="Ejercicio 3" Click="Ejercicio3_9MenuItem_Click"/>
+                    <MenuItem x:Name="Ejercicio4MenuItem" Header="Ejercicio 4" Click="Ejercicio4MenuItem_Click"/>
+                </MenuItem>
+            </Menu>
+        </StackPanel>
+    </Grid>
+</Window>

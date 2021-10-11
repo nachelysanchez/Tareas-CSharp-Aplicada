@@ -1,0 +1,22 @@
+﻿<Window x:Class="Estructuras_Cadenas.Capitulo8.Ejercicio5_8"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Estructuras_Cadenas.Capitulo8"
+        mc:Ignorable="d"
+        Title="Ejercicio 5" Height="250" Width="500">
+    <Grid>
+        <StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="20" HorizontalAlignment="Center">
+                <Label Content="Ingrese una cadena: "/>
+                <TextBox x:Name="Cadena1TextBox" Height="20" Width="200"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="20" HorizontalAlignment="Center">
+                <Label Content="Ingrese otra cadena: "/>
+                <TextBox x:Name="Cadena2TextBox" Height="20" Width="200"/>
+            </StackPanel>
+            <Button x:Name="AlfabeticoButton" Content="Mostrar en orden alfabetico" Height="30" Width="200" Click="AlfabeticoButton_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>

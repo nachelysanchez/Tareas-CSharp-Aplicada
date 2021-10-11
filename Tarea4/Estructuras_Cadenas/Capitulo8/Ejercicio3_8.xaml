@@ -1,0 +1,19 @@
+﻿<Window x:Class="Estructuras_Cadenas.Capitulo8.Ejercicio3_8"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Estructuras_Cadenas.Capitulo8"
+        mc:Ignorable="d"
+        Title="Ejercicio 3" Height="250" Width="325">
+    <Grid>
+        <StackPanel Margin="20">
+            <Label Content="Pulse el boton para ver la fecha actual del sistema" HorizontalAlignment="Center"/>
+            <StackPanel Orientation="Horizontal" Height="100" Width="300">
+                <Button x:Name="AMButton" Height="30" Width="200" HorizontalAlignment="Left" Margin="20" Click="AMButton_Click">
+                    <Label Content="Mostrar Fecha Actual del Sistema"/>
+                </Button>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>
