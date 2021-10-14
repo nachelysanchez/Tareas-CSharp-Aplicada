@@ -1,0 +1,30 @@
+﻿<Window x:Class="Depuracion_Clases.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Depuracion_Clases"
+        mc:Ignorable="d"
+        Title="Ventana Principal" Height="300" Width="500">
+    <Grid>
+        <Image Source="/Resources/fondo-react-horizontal-4k.png" Height="320" Width="520" Stretch="Uniform" />
+        <StackPanel>
+            <Menu Height="20">
+                <MenuItem Header="Capitulo 10">
+                    <MenuItem x:Name="Ej1_10MenuItem" Header="Ejercicio 1" Click="Ej1_10MenuItem_Click"/>
+                    <MenuItem x:Name="Ej2_10MenuItem" Header="Ejercicio 2" Click="Ej2_10MenuItem_Click"/>
+                    <MenuItem x:Name="Ej3_10MenuItem" Header="Ejercicio 3" Click="Ej3_10MenuItem_Click"/>
+                    <MenuItem x:Name="Ej4_10MenuItem" Header="Ejercicio 4" Click="Ej4_10MenuItem_Click"/>
+                    <MenuItem x:Name="Ej5_10MenuItem" Header="Ejercicio 5" Click="Ej5_10MenuItem_Click"/>
+                </MenuItem>
+                <MenuItem Header="Capitulo 12">
+                    <MenuItem x:Name="Ej1_12MenuItem" Header="Ejercicio 1" Click="Ej1_12MenuItem_Click"/>
+                    <MenuItem x:Name="Ej2_12MenuItem" Header="Ejercicio 2" Click="Ej2_12MenuItem_Click"/>
+                    <MenuItem x:Name="Ej3_12MenuItem" Header="Ejercicio 3" Click="Ej3_12MenuItem_Click"/>
+                    <MenuItem x:Name="Ej4_12MenuItem" Header="Ejercicio 4" Click="Ej4_12MenuItem_Click"/>
+                    <MenuItem x:Name="Ej5_12MenuItem" Header="Ejercicio 5" Click="Ej5_12MenuItem_Click"/>
+                </MenuItem>
+            </Menu>
+        </StackPanel>
+    </Grid>
+</Window>

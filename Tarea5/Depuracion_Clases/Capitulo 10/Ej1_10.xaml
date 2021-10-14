@@ -1,0 +1,19 @@
+﻿<Window x:Class="Depuracion_Clases.Capitulo_10.Ej1_10"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Depuracion_Clases.Capitulo_10"
+        mc:Ignorable="d"
+        Title="Ejercicio 1" Height="450" Width="650">
+    <Grid>
+        <Image Source="/Resources/Arauco-Rojo-Colonial1.jpg"  Height="650" Width="650"/>
+        <StackPanel>
+            <StackPanel HorizontalAlignment="Center">
+                <Button x:Name="IngresarButton" Content="Ingresar datos de inventario" Width="200" Margin="20,20,0,0" HorizontalAlignment="Left" Click="IngresarButton_Click" />
+                <Label Content="Datos Guardados del Inventario: " Margin="15,20,0,0"/>
+                <ListBox x:Name="MostrarListBox" Width="600" Height="300" Margin="20,5,0,0" HorizontalAlignment="Left"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>
